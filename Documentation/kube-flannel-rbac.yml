@@ -35,6 +35,6 @@ roleRef:
   kind: ClusterRole
   name: flannel
 subjects:
-- kind: ServiceAccount
+  kind: ServiceAccount
   name: flannel
   namespace: kube-system
